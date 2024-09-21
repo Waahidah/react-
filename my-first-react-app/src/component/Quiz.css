@@ -1,0 +1,36 @@
+.App {
+    text-align: center;
+    background-color:rgb(7, 7, 248) ;
+  }
+  
+  ul {
+    list-style-type:circle;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(254, 8, 233);
+  }
+  
+  li:hover {
+    background-color: #05a6ab;
+  }
+  
+  .selected {
+    background-color: #011620;
+  }
+  .button{
+    background-color: #10ce6f;
+    border-radius: 20px;
+    width: 30%;
+    cursor: pointer;
+  }
+  .button-disable{
+    border-radius: 20px;
+    width: 30%;
+    cursor: not-allowed;
+  }
+  
